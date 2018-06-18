@@ -13,6 +13,8 @@ function driversWithRevenueOver(drivers, revenue) {
 
 function driverNamesWithRevenueOver(drivers, revenue) {
   x = drivers.map(function (driver) {
+    const newArr = [];
+
     for (const element of drivers) {
       newArr.push(callback(element));
     }
