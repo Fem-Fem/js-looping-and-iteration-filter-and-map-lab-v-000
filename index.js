@@ -34,10 +34,10 @@ function exactMatch(drivers, object1) {
 function exactMatchToList(drivers, object1) {
   x = drivers.filter(function (driver) {
     if (driver["revenue"] == Object.values(object1)) {
-      return driver
+      return driver.class
     }
     if (driver["name"] == Object.values(object1)) {
-      return driver
+      return driver.class
     }
   })
   return x;
