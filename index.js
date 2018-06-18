@@ -11,7 +11,7 @@ function driversWithRevenueOver(drivers, revenue) {
 function driverNamesWithRevenueOver(drivers, revenue) {
   x = drivers.filter(function (driver) {
     if (driver["revenue"] > revenue) {
-      debugger
+      debugger;
       z = driver["name"]
       return z
     }
