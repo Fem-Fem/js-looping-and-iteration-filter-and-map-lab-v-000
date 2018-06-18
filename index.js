@@ -37,7 +37,7 @@ function exactMatchToList(drivers, object1) {
       return driver
     }
     if (driver["name"] == Object.values(object1)) {
-      return driver["name"]
+      return driver
     }
   })
   return x;
