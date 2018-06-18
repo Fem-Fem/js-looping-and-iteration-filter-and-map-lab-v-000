@@ -13,6 +13,7 @@ function driverNamesWithRevenueOver(drivers, revenue) {
     if (driver["revenue"] > revenue) {
       // debugger;
       z = driver["name"]
+      console.log(z)
       return z
     }
   })
