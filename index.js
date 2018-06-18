@@ -2,10 +2,10 @@
 function driversWithRevenueOver(drivers, revenue) {
   x = drivers.filter(function (driver) {
     if (driver["revenue"] > revenue) {
-      newObj = {};
-      newObj["name"] = driver["name"]
-      newObj["name"] = revenue
-      return newObj;
+      // newObj = {};
+      // newObj["name"] = driver["name"]
+      // newObj["name"] = revenue
+      // return newObj;
     }
   })
   return x;
