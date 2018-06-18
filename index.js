@@ -6,6 +6,7 @@ function driversWithRevenueOver(drivers, revenue) {
       // newObj["name"] = driver["name"]
       // newObj["name"] = revenue
       // return newObj;
+      return driver
     }
   })
   return x;
