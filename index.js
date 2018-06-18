@@ -26,7 +26,6 @@ function exactMatch(drivers, object) {
     if
     if (driver["revenue"] == object) {
       return driver["name"]
-      // return `${driver.name}`;
     }
   })
   return x;
