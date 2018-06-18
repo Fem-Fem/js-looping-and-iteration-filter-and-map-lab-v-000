@@ -27,7 +27,7 @@ function exactMatch(drivers, object1) {
   //     return driver["name"]
   //   }
   // })
-  return Object.keys(object1))
+  return Object.keys(object1)
   return x;
 }
 
