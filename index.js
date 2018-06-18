@@ -9,13 +9,12 @@ function driversWithRevenueOver(drivers, revenue) {
 }
 
 function driverNamesWithRevenueOver(drivers, revenue) {
-  // x = drivers.filter(function (driver) {
-  //   if (driver["revenue"] > revenue) {
-  //     return driver["name"]
-  //     // return `${driver.name}`;
-  //   }
-  // })
-  return drivers[0]["name"]
+  x = drivers.filter(function (driver) {
+    if (driver["revenue"] > revenue) {
+      return driver["name"]
+      // return `${driver.name}`;
+    }
+  })
   return x;
 }
 
