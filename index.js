@@ -12,6 +12,7 @@ function driverNamesWithRevenueOver(drivers, revenue) {
   x = drivers.filter(function (driver) {
     if (driver["revenue"] > revenue) {
       return driver["name"]
+      puts driver["name"]
       // return `${driver.name}`;
     }
   })
