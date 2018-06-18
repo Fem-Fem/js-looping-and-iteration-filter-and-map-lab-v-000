@@ -40,5 +40,5 @@ function exactMatchToList(drivers, object1) {
       return driver
     }
   })
-  return x;
+  return x.map(function (driver)) {};
 }
