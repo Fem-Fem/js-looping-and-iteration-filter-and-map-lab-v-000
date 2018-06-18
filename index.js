@@ -15,6 +15,7 @@ function driverNamesWithRevenueOver(drivers, revenue) {
   //     // return `${driver.name}`;
   //   }
   // })
+  return drivers[0]["name"]
   return x;
 }
 
