@@ -11,7 +11,8 @@ function driversWithRevenueOver(drivers, revenue) {
 function driverNamesWithRevenueOver(drivers, revenue) {
   x = drivers.map(function (driver) {
     if (driver["revenue"] > revenue) {
-      return driver["name"]
+      z = driver["name"]
+      return z
       // return `${driver.name}`;
     }
   })
